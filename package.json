@@ -1,0 +1,26 @@
+{
+  "name": "curso-fundamentos-nodejs",
+  "version": "1.0.0",
+  "description": "curso fundamentos de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlejandroGs13/CursoFundamentosDeNodeJs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "callback",
+    "promise",
+    "async",
+    "await"
+  ],
+  "author": "AlejandroGs13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlejandroGs13/CursoFundamentosDeNodeJs/issues"
+  },
+  "homepage": "https://github.com/AlejandroGs13/CursoFundamentosDeNodeJs#readme"
+}

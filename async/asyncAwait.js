@@ -1,4 +1,4 @@
-const hola = (nombre) =>{
+const hola = async (nombre) =>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             console.log(`Hola ${nombre}!!`);
@@ -7,7 +7,7 @@ const hola = (nombre) =>{
     });
 }
 
-const hablar = (nombre) =>{
+const hablar = async (nombre) =>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             console.log(`bla bla bla bla.......`);
@@ -16,7 +16,7 @@ const hablar = (nombre) =>{
     });
 }
 
-const adios = (nombre) =>{
+const adios = async (nombre) =>{
     return new Promise((resolve,reject)=>{
         
     setTimeout(()=>{
@@ -26,17 +26,16 @@ const adios = (nombre) =>{
     });
 }
 
-console.log(`Iniciando proceso...`)
-hola(`David`)
-    .then(hablar)
-    .then(hablar)
-    .then(hablar)
-    .then(hablar)
-    .then(hablar)
-    .then(adios)
-    // .then((nombre)=>{
-    //     return adios(nombre);
-    //     })
-    .then((nombre)=>{
-        console.log('Terminado el proceso')
-        });
+const main = async()=>{
+    let nombre = await hola('David');
+    await hablar();
+    await hablar();
+    await hablar();
+    await hablar();
+    await adios(nombre);
+    console.log(`termina el proceso.....`);
+}
+
+console.log(`empezamos el proceso.....`);
+main();
+

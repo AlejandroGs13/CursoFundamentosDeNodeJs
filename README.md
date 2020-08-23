@@ -12,5 +12,5 @@ ASINCRONO:
 
 * el asincronismo no espera i sigue ejecutando codigo
 
-* descargado desde ubuntu
+* Trabajar asincrono que tarden en carga para no parar la cola
 

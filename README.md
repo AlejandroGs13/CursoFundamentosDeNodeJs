@@ -11,3 +11,6 @@ Apuntes:
 ASINCRONO:
 
 * el asincronismo no espera i sigue ejecutando codigo
+
+* descargado desde ubuntu
+

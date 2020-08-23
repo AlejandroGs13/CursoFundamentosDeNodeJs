@@ -14,3 +14,5 @@ ASINCRONO:
 
 * Trabajar asincrono que tarden en carga para no parar la cola
 
+* tipo de valores consola https://platzi.com/comentario/978997/
+

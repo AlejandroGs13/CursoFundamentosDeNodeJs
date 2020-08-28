@@ -16,3 +16,14 @@ ASINCRONO:
 
 * tipo de valores consola https://platzi.com/comentario/978997/
 
+
+MODULOS utiles
+
+npm i bcrypt, convierte en has un password despues la compara
+
+
+npm i moment - fechas
+
+/ Datos en memoria mas rapidos que en el almacenamiento
+
+//buffer datos en binario
